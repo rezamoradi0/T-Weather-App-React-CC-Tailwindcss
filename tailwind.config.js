@@ -18,6 +18,9 @@ module.exports = {
       scale:{
         '115':'1.15',
         '120':'1.2'
+      },
+      minHeight:{
+        '200':'200px'
       }
     },
   },

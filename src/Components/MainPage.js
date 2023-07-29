@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import VideoBg from './VideoBg';
-import Wheater from './Wheater';
+import Weather from './Weather';
 class MainPage extends Component {
     
     render() { 
@@ -8,7 +8,7 @@ class MainPage extends Component {
             <div className='h-full w-4/6 m-auto rounded-md overflow-hidden relative'>
         
             <VideoBg/>
-            <Wheater/>
+            <Weather/>
             </div>
         
                
