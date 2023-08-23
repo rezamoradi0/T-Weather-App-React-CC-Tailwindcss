@@ -2,8 +2,31 @@
     font-family: nova;
     src: url("./../Fonts/NoveoSans-Light.ttf") format("truetype");
 }
+@font-face {
+    font-family: jet;
+    src: url("./../Fonts/ttf/JetBrainsMono-ExtraLight.ttf") format("truetype");
+}
 *{
     font-family: nova;
+}
+.hour-weather-card{
+    transition: all 300ms;
+    cursor: default;
+    &:hover{
+        background-color: rgba(114, 114, 114, 0.2);
+    }
+}
+.scrollbar-hidden{
+    position: relative;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar{
+       display: none;
+        width: 0px;
+        height: 0px;
+       
+        
+    }
 }
 // .selected-day{
 //     background-color: rgb(91, 91, 91)969;

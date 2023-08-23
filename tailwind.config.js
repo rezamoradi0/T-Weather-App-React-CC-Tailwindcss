@@ -7,7 +7,9 @@ module.exports = {
   theme: {
     extend: {
       aspectRatio:{
-          '3/4': '3 / 4'
+          '3/4': '3 / 4',
+          '1/2': '1 / 2',
+          '6/10': '6 / 10'
       },
       backgroundImage:{
         // 'rain': "url('/images/rain.jpg')"
