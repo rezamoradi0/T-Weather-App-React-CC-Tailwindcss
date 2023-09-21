@@ -45,10 +45,12 @@ class Information extends PureComponent {
   };
   render() {
     return (
-      <div className="w-3/4 h-full justify-end flex flex-col align-bottom p-7 relative border-r-2 border-r-gray-300  border-opacity-50">
+      <div className={`${this.props.children!=null?"w-full":"w-3/4"} h-full justify-end flex flex-col align-bottom p-7 relative border-r-2 border-r-gray-300  border-opacity-50`}>
+        {this.props.children}
+      
         {/* MainStatus */}
         <div className="main-status capitalize  text-7xl text-right my-9">
-          <span className="main-status-text bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-400 font-semibold">
+          <span className="main-status-text   bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-400 font-semibold">
             {this.props.Weather&&this.props.Weather.currentConditions.conditions}
           </span>
         </div>

@@ -56,7 +56,7 @@ class Menu extends Component {
   }
   render() {
     return (
-      <div className="w-1/4 backdrop-blur-sm py-7 px-3">
+      <div className={`backdrop-blur-sm py-7 px-3 ${this.props.CustomWidth!=null?"w-full":"w-1/4"}  `}>
         {/* MenuHolder */}
         <div className="w-full h-full outline-none border-none">
           {/* select Holder */}

@@ -5,6 +5,9 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens:{
+      'tb':"800px",
+    },
     extend: {
       aspectRatio:{
           '3/4': '3 / 4',
